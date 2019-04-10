@@ -28,7 +28,7 @@ export class SignedIn extends Component {
           </div>
           <div className="input-field">
             <label htmlFor="password">Password</label>
-            <input type="password" id='email' onChange={this.handleChange}/>
+            <input type="password" id='password' onChange={this.handleChange}/>
           </div>
           <div className="input-field">
           <button className="btn pick lighten-1 z-depth-0">Login</button>
